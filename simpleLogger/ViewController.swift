@@ -18,23 +18,12 @@ extension NSDate {
     }
 }
 
-
-
-class ViewController: UIViewController {
-    
-    @IBOutlet weak var messageLabel: UILabel!
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        messageLabel.text = log(2, message: "Hello World")
-      
-    }
+class MyLogger{
     
     func log(var level: Int, message: String) -> String{
         
-
         var levelMsg: String
+        
         if(level == 1){
             levelMsg = "INFO"
         }
@@ -52,9 +41,37 @@ class ViewController: UIViewController {
         var timestamp: String = NSDate().formatted
         
         var logMessage = NSString(format:"{%@}::{%@}::{%@}", levelMsg , timestamp , message) as String
-       
+        
         
         return logMessage
+    }
+
+}
+
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var messageLabel: UILabel!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let logger = MyLogger()
+        logger.log(1, message: "Whassup")
+        
+      //  messageLabel.text = log(2, message: "Hello World")
+      
+    }
+    
+    
+    func HTTPLogger(var level: Int, message: String) -> String{
+        
+        
+        
+        
+        return "test"
+    }
+    
+    func consoleLogger(){
+        
     }
     
 }

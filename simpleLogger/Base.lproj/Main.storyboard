@@ -29,7 +29,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="messageLabel" destination="RWz-Ge-1Hk" id="A5U-sI-14v"/>
+                        <outlet property="messageLabel" destination="RWz-Ge-1Hk" id="AvX-Sb-HTu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
