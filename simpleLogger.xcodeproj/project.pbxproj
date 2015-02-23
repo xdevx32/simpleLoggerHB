@@ -13,6 +13,7 @@
 		9C0E102C1A956DE300CDC785 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E102B1A956DE300CDC785 /* Images.xcassets */; };
 		9C0E102F1A956DE300CDC785 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E102D1A956DE300CDC785 /* LaunchScreen.xib */; };
 		9C0E103B1A956DE300CDC785 /* simpleLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0E103A1A956DE300CDC785 /* simpleLoggerTests.swift */; };
+		9C60F5EE1A9B501900FA55C0 /* writeFileTest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C60F5ED1A9B501900FA55C0 /* writeFileTest.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		9C0E10341A956DE300CDC785 /* simpleLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0E10391A956DE300CDC785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C0E103A1A956DE300CDC785 /* simpleLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleLoggerTests.swift; sourceTree = "<group>"; };
+		9C60F5EC1A9AE28700FA55C0 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		9C60F5ED1A9B501900FA55C0 /* writeFileTest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = writeFileTest.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				9C0E102B1A956DE300CDC785 /* Images.xcassets */,
 				9C0E102D1A956DE300CDC785 /* LaunchScreen.xib */,
 				9C0E10221A956DE300CDC785 /* Supporting Files */,
+				9C60F5EC1A9AE28700FA55C0 /* MyPlayground.playground */,
 			);
 			path = simpleLogger;
 			sourceTree = "<group>";
@@ -91,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				9C0E10231A956DE300CDC785 /* Info.plist */,
+				9C60F5ED1A9B501900FA55C0 /* writeFileTest.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C60F5EE1A9B501900FA55C0 /* writeFileTest.txt in Resources */,
 				9C0E102A1A956DE300CDC785 /* Main.storyboard in Resources */,
 				9C0E102F1A956DE300CDC785 /* LaunchScreen.xib in Resources */,
 				9C0E102C1A956DE300CDC785 /* Images.xcassets in Resources */,
@@ -405,6 +411,7 @@
 				9C0E10401A956DE300CDC785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C0E10411A956DE300CDC785 /* Build configuration list for PBXNativeTarget "simpleLoggerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +420,7 @@
 				9C0E10431A956DE300CDC785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
