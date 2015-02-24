@@ -10,57 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "simpleLogger/ViewController.swift"
-            timestampString = "446386844.980257"
+            timestampString = "446489847.179484"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
-            landmarkName = "HTTPLogger"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "simpleLogger/ViewController.swift"
-            timestampString = "446386844.980257"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "190"
-            endingLineNumber = "190">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "simpleLogger/ViewController.swift"
-            timestampString = "446386844.980257"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "simpleLogger/ViewController.swift"
-            timestampString = "446381772.453639"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "log(_:message1:)"
-            landmarkType = "5">
+            startingLineNumber = "202"
+            endingLineNumber = "202">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -86,57 +40,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "simpleLogger/ViewController.swift"
-            timestampString = "446386844.980257"
+            timestampString = "446468803.040556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "164"
-            endingLineNumber = "164"
-            landmarkName = "write(_:encoding:allowLossyConversion:)"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ext.simpleLogger.ObjectiveC.NSOutputStream.(write (ObjectiveC.NSOutputStream) -&gt; (Swift.String, encoding : Swift.UInt, allowLossyConversion : Swift.Bool) -&gt; Swift.Int).(default argument 1)"
-                  moduleName = "simpleLogger"
-                  urlString = "file:///Users/xdevx/Documents/Development/HackBulgaria/simpleLoggerHB/simpleLogger/ViewController.swift"
-                  timestampString = "446386668.744703"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "173"
-                  endingLineNumber = "173"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ext.simpleLogger.ObjectiveC.NSOutputStream.(write (ObjectiveC.NSOutputStream) -&gt; (Swift.String, encoding : Swift.UInt, allowLossyConversion : Swift.Bool) -&gt; Swift.Int).(default argument 2)"
-                  moduleName = "simpleLogger"
-                  urlString = "file:///Users/xdevx/Documents/Development/HackBulgaria/simpleLoggerHB/simpleLogger/ViewController.swift"
-                  timestampString = "446386668.74493"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "173"
-                  endingLineNumber = "173"
-                  offsetFromSymbolStart = "8">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ext.simpleLogger.ObjectiveC.NSOutputStream.write (ObjectiveC.NSOutputStream)(Swift.String, encoding : Swift.UInt, allowLossyConversion : Swift.Bool) -&gt; Swift.Int"
-                  moduleName = "simpleLogger"
-                  urlString = "file:///Users/xdevx/Documents/Development/HackBulgaria/simpleLoggerHB/simpleLogger/ViewController.swift"
-                  timestampString = "446386668.745158"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "173"
-                  endingLineNumber = "173"
-                  offsetFromSymbolStart = "45">
-               </Location>
-            </Locations>
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "HTTPLogger"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

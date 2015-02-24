@@ -32,8 +32,8 @@ class ViewController: UIViewController {
         fileLogger.log(fileLogger.level, message1: fileLogger.message)
         
         //HTTPLogger test
-        ///  let htLogger = HTTPLogger(level: 1,message: "Hello World"
-        // htLogger.log(1, message: "HTTPPPPP")
+        let htLogger = HTTPLogger(level: 1,message: "Hello World")
+        htLogger.log(htLogger.level, message: htLogger.message)
     }
 }
 
@@ -116,11 +116,13 @@ class HTTPLogger: MyLogger {
    
     override func log(var level: Int, message: String) -> String{
         
-        println("Hey, I am here in the HTTPLogger log function")
+        var tempObj = MyLogger(level: level, message: message)
+        
+        var stamp: String = tempObj.log(level, message: message)
         
         let request = NSMutableURLRequest(URL: NSURL(string: "http://www.thisismylink.com/postName.php")!)
         request.HTTPMethod = "POST"
-        let postString = "id=13&name=Jack"
+        let postString = stamp
         request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding)
         let task = NSURLSession.sharedSession().dataTaskWithRequest(request) {
             data, response, error in
